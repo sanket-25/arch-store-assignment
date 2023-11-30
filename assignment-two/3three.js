@@ -20,16 +20,13 @@ const server = http.createServer((req, res) => {
         } else {
           const receivedString = payload.str;
 
-          // Regex to match words (assuming a word is a sequence of characters separated by spaces)
           const wordCount = (receivedString.match(/\S+/g) || []).length;
 
           if (wordCount >= 8) {
-            // At least 8 words found
             console.log("Received String contains at least 8 words:", receivedString);
             res.writeHead(200, { "Content-Type": "application/json" });
             res.end(JSON.stringify({ "message": "Received the string with at least 8 words", "receivedString": receivedString }));
           } else {
-            // Less than 8 words found
             console.log("Received String contains less than 8 words:", receivedString);
             res.writeHead(400, { "Content-Type": "application/json" });
             res.end(JSON.stringify({ "error": "Received string must contain at least 8 words" }));
