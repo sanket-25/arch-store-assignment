@@ -18,8 +18,8 @@ node assignment-___/4four.js <br/>
 </p>
 
 <h1>For Assignment 2</h1>
-<p>
-  // Method POST in the body
+<pre>
+  // Method POST in the body 
 {
     "str": "one two three four five"
 }
@@ -38,4 +38,4 @@ status: 200 OK
 {
   "message": "At least 8 words found"
 }
-</p>
+</pre>
