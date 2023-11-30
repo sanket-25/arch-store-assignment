@@ -1,0 +1,52 @@
+Hi Sanket,
+Thank you for your interest in our internship opening. As a next step, we are expecting you to complete a short assignment.
+
+=============Assignment 1 ===================
+ 
+ Write a node.js program to get data from 
+ Method :GET 
+ URL: https://catfact.ninja/breeds 
+ 
+ 1) Log the response AS-IS to a text file 
+ 2) Console log the number of pages of data that are available on this URL 
+ 3) Get data from ALL the pages 
+ 4) Using the data from ALL the pages 
+     4a) Return cat breeds grouped by Country 
+ example  of 200 OK response expected shown below 
+{
+  "United States": [
+    {
+      "breed": "Some Breed",
+      "origin": "some origin",
+      "coat": "something",
+      "pattern": "something"
+    }
+  ],
+  "France": [
+    {
+      "breed": "Some Breed",
+      "origin": "some origin",
+      "coat": "something",
+      "pattern": "something"
+    }
+  ]
+}
+ 
+================================================== 
+
+===========Assignment 2 ===========================
+Write a nodejs route 
+Method: POST 
+URL: Localhost 
+Payload: {
+            "str": "some words"
+            }
+
+1) Write a localhost route to accept above payload 
+2) Using regex check if there are at least 8 words (not characters) 
+3) Return 200 OK if at least 8 words 
+4) Return Not Acceptable if not 8 words 
+===========================================================
+
+This is an in office position in Mumbai.
+Deadline for the assignment : 1st Dec 2023 (6pm)
